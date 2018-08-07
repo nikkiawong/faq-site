@@ -32,3 +32,13 @@ h3 {
 .show-answer5 {
   display: none;
 }
+
+.light-background {
+  background-color: white;
+  color: black;
+}
+
+.dark-background {
+  background-color: black;
+  color: white;
+}

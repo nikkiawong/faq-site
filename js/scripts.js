@@ -13,5 +13,13 @@ $(document).ready(function() {
   })
   $(".clickable5").click(function() {
     $(".show-answer5").slideToggle();
+  })
+  $("button#light").click(function() {
+    $("body").removeClass("dark-background");
+    $("body").addClass("light-background");
+  })
+  $("button#dark").click(function() {
+    $("body").removeClass("light-background");
+    $("body").addClass("dark-background");
   });
 });
