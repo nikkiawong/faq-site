@@ -42,3 +42,13 @@ h3 {
   background-color: black;
   color: white;
 }
+
+.highlight {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.non-highlight {
+  background-color: white;
+  border: 0;
+}
